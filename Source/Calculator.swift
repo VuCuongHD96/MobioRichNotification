@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Calculator {
+public struct Calculator {
     
-    static func add(a: Int, b: Int) -> Int {
+    public static func add(a: Int, b: Int) -> Int {
         return a + b
     }
 }

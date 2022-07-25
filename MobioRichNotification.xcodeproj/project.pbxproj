@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A473A50B288E43E000F82CD8 /* RichNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473A50A288E43E000F82CD8 /* RichNotification.swift */; };
 		A4867725288E3AA90085763B /* MobioRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = A4867723288E3AA90085763B /* MobioRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A486772D288E3B840085763B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486772C288E3B840085763B /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A473A50A288E43E000F82CD8 /* RichNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichNotification.swift; sourceTree = "<group>"; };
 		A4867720288E3AA90085763B /* MobioRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobioRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4867723288E3AA90085763B /* MobioRichNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobioRichNotification.h; sourceTree = "<group>"; };
 		A4867724288E3AA90085763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				A4867723288E3AA90085763B /* MobioRichNotification.h */,
 				A4867724288E3AA90085763B /* Info.plist */,
 				A486772C288E3B840085763B /* Calculator.swift */,
+				A473A50A288E43E000F82CD8 /* RichNotification.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A473A50B288E43E000F82CD8 /* RichNotification.swift in Sources */,
 				A486772D288E3B840085763B /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +277,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MobioRichNotification/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +303,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MobioRichNotification/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
