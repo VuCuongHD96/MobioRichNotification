@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A4867725288E3AA90085763B /* MobioRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = A4867723288E3AA90085763B /* MobioRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A486772D288E3B840085763B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486772C288E3B840085763B /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4867720288E3AA90085763B /* MobioRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobioRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4867723288E3AA90085763B /* MobioRichNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobioRichNotification.h; sourceTree = "<group>"; };
 		A4867724288E3AA90085763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A486772C288E3B840085763B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +32,7 @@
 		A4867716288E3AA90085763B = {
 			isa = PBXGroup;
 			children = (
-				A4867722288E3AA90085763B /* MobioRichNotification */,
+				A4867722288E3AA90085763B /* Source */,
 				A4867721288E3AA90085763B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +45,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4867722288E3AA90085763B /* MobioRichNotification */ = {
+		A4867722288E3AA90085763B /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				A4867723288E3AA90085763B /* MobioRichNotification.h */,
 				A4867724288E3AA90085763B /* Info.plist */,
+				A486772C288E3B840085763B /* Calculator.swift */,
 			);
-			path = MobioRichNotification;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					A486771F288E3AA90085763B = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A486772D288E3B840085763B /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		A4867729288E3AA90085763B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GCAT449K7M;
@@ -277,7 +283,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.MobioRichNotification;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -285,6 +292,7 @@
 		A486772A288E3AA90085763B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GCAT449K7M;
@@ -301,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.MobioRichNotification;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
