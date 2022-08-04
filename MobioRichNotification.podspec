@@ -20,6 +20,9 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/VuCuongHD96/MobioRichNotification.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "Source/*.swift"
+  spec.source_files = "Source/**/**/*.{swift,xib,xcdatamodeld}"
+
+  spec.resources = ['*.{xib}']
+
 
 end
