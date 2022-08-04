@@ -7,20 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40A0F59289B6AE0004E924A /* MobioNotificationContentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A0F58289B6AE0004E924A /* MobioNotificationContentExtension.swift */; };
+		A40A0F5F289B71D5004E924A /* XibSceneBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A0F5E289B71D5004E924A /* XibSceneBased.swift */; };
+		A45BD259289BACC600AA62A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BD258289BACC600AA62A4 /* AppDelegate.swift */; };
+		A45BD25B289BACC600AA62A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BD25A289BACC600AA62A4 /* SceneDelegate.swift */; };
+		A45BD25D289BACC600AA62A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BD25C289BACC600AA62A4 /* ViewController.swift */; };
+		A45BD260289BACC600AA62A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45BD25E289BACC600AA62A4 /* Main.storyboard */; };
+		A45BD262289BACC700AA62A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45BD261289BACC700AA62A4 /* Assets.xcassets */; };
+		A45BD265289BACC700AA62A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45BD263289BACC700AA62A4 /* LaunchScreen.storyboard */; };
 		A473A50B288E43E000F82CD8 /* RichNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473A50A288E43E000F82CD8 /* RichNotification.swift */; };
 		A4867725288E3AA90085763B /* MobioRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = A4867723288E3AA90085763B /* MobioRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A486772D288E3B840085763B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486772C288E3B840085763B /* Calculator.swift */; };
+		A4DD494C28AB9705003FAE16 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4DD494828AB9705003FAE16 /* ImageCell.xib */; };
+		A4DD494D28AB9705003FAE16 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DD494928AB9705003FAE16 /* ImageCell.swift */; };
+		A4DD494E28AB9705003FAE16 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DD494A28AB9705003FAE16 /* SlideViewController.swift */; };
+		A4DD494F28AB9705003FAE16 /* SlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4DD494B28AB9705003FAE16 /* SlideViewController.xib */; };
+		A4DD495128AB9876003FAE16 /* BaseNotificationContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DD495028AB9876003FAE16 /* BaseNotificationContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40A0F58289B6AE0004E924A /* MobioNotificationContentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobioNotificationContentExtension.swift; sourceTree = "<group>"; };
+		A40A0F5E289B71D5004E924A /* XibSceneBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibSceneBased.swift; sourceTree = "<group>"; };
+		A45BD256289BACC600AA62A4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45BD258289BACC600AA62A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A45BD25A289BACC600AA62A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A45BD25C289BACC600AA62A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A45BD25F289BACC600AA62A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A45BD261289BACC700AA62A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45BD264289BACC700AA62A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45BD266289BACC700AA62A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A473A50A288E43E000F82CD8 /* RichNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichNotification.swift; sourceTree = "<group>"; };
 		A4867720288E3AA90085763B /* MobioRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobioRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4867723288E3AA90085763B /* MobioRichNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobioRichNotification.h; sourceTree = "<group>"; };
 		A4867724288E3AA90085763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A486772C288E3B840085763B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		A4DD494828AB9705003FAE16 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		A4DD494928AB9705003FAE16 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		A4DD494A28AB9705003FAE16 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		A4DD494B28AB9705003FAE16 /* SlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideViewController.xib; sourceTree = "<group>"; };
+		A4DD495028AB9876003FAE16 /* BaseNotificationContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNotificationContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A45BD253289BACC600AA62A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A486771D288E3AA90085763B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,10 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A45BD257289BACC600AA62A4 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A45BD258289BACC600AA62A4 /* AppDelegate.swift */,
+				A45BD25A289BACC600AA62A4 /* SceneDelegate.swift */,
+				A45BD25C289BACC600AA62A4 /* ViewController.swift */,
+				A45BD25E289BACC600AA62A4 /* Main.storyboard */,
+				A45BD261289BACC700AA62A4 /* Assets.xcassets */,
+				A45BD263289BACC700AA62A4 /* LaunchScreen.storyboard */,
+				A45BD266289BACC700AA62A4 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		A4867716288E3AA90085763B = {
 			isa = PBXGroup;
 			children = (
 				A4867722288E3AA90085763B /* Source */,
+				A45BD257289BACC600AA62A4 /* Example */,
 				A4867721288E3AA90085763B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A4867720288E3AA90085763B /* MobioRichNotification.framework */,
+				A45BD256289BACC600AA62A4 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +101,32 @@
 			children = (
 				A4867723288E3AA90085763B /* MobioRichNotification.h */,
 				A4867724288E3AA90085763B /* Info.plist */,
-				A486772C288E3B840085763B /* Calculator.swift */,
+				A4DD495028AB9876003FAE16 /* BaseNotificationContentViewController.swift */,
+				A4DD494628AB9705003FAE16 /* Slider */,
 				A473A50A288E43E000F82CD8 /* RichNotification.swift */,
+				A40A0F58289B6AE0004E924A /* MobioNotificationContentExtension.swift */,
+				A40A0F5E289B71D5004E924A /* XibSceneBased.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A4DD494628AB9705003FAE16 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				A4DD494728AB9705003FAE16 /* Cell */,
+				A4DD494A28AB9705003FAE16 /* SlideViewController.swift */,
+				A4DD494B28AB9705003FAE16 /* SlideViewController.xib */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		A4DD494728AB9705003FAE16 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4DD494828AB9705003FAE16 /* ImageCell.xib */,
+				A4DD494928AB9705003FAE16 /* ImageCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +143,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A45BD255289BACC600AA62A4 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45BD269289BACC700AA62A4 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				A45BD252289BACC600AA62A4 /* Sources */,
+				A45BD253289BACC600AA62A4 /* Frameworks */,
+				A45BD254289BACC600AA62A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = A45BD256289BACC600AA62A4 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A486771F288E3AA90085763B /* MobioRichNotification */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4867728288E3AA90085763B /* Build configuration list for PBXNativeTarget "MobioRichNotification" */;
@@ -96,8 +184,12 @@
 		A4867717288E3AA90085763B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					A45BD255289BACC600AA62A4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					A486771F288E3AA90085763B = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1230;
@@ -118,33 +210,137 @@
 			projectRoot = "";
 			targets = (
 				A486771F288E3AA90085763B /* MobioRichNotification */,
+				A45BD255289BACC600AA62A4 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A45BD254289BACC600AA62A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45BD265289BACC700AA62A4 /* LaunchScreen.storyboard in Resources */,
+				A45BD262289BACC700AA62A4 /* Assets.xcassets in Resources */,
+				A45BD260289BACC600AA62A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A486771E288E3AA90085763B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DD494F28AB9705003FAE16 /* SlideViewController.xib in Resources */,
+				A4DD494C28AB9705003FAE16 /* ImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A45BD252289BACC600AA62A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45BD25D289BACC600AA62A4 /* ViewController.swift in Sources */,
+				A45BD259289BACC600AA62A4 /* AppDelegate.swift in Sources */,
+				A45BD25B289BACC600AA62A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A486771C288E3AA90085763B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40A0F5F289B71D5004E924A /* XibSceneBased.swift in Sources */,
+				A4DD494E28AB9705003FAE16 /* SlideViewController.swift in Sources */,
+				A4DD495128AB9876003FAE16 /* BaseNotificationContentViewController.swift in Sources */,
+				A4DD494D28AB9705003FAE16 /* ImageCell.swift in Sources */,
 				A473A50B288E43E000F82CD8 /* RichNotification.swift in Sources */,
-				A486772D288E3B840085763B /* Calculator.swift in Sources */,
+				A40A0F59289B6AE0004E924A /* MobioNotificationContentExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A45BD25E289BACC600AA62A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45BD25F289BACC600AA62A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A45BD263289BACC700AA62A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45BD264289BACC700AA62A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		A45BD267289BACC700AA62A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45BD268289BACC700AA62A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A4867726288E3AA90085763B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -321,6 +517,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A45BD269289BACC700AA62A4 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45BD267289BACC700AA62A4 /* Debug */,
+				A45BD268289BACC700AA62A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A486771A288E3AA90085763B /* Build configuration list for PBXProject "MobioRichNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
