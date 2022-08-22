@@ -1,0 +1,144 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationPackageTests.xctest/Contents/MacOS/MobioRichNotificationPackageTests",
+      "productName" : "MobioRichNotificationPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.MobioRichNotification-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/Sources/MobioRichNotification/MobioRichNotification.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MobioRichNotification",
+      "moduleOutputPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.swiftmodule",
+      "objects" : [
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification-Swift.h",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/sun/Desktop/MobioRichNotification/Sources/MobioRichNotification/MobioRichNotification.swift"
+      ],
+      "tempsPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MobioRichNotificationTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/Tests/MobioRichNotificationTests/MobioRichNotificationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MobioRichNotificationTests",
+      "moduleOutputPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationTests.swiftmodule",
+      "objects" : [
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationTests.build/MobioRichNotificationTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationTests.build/MobioRichNotificationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/sun/Desktop/MobioRichNotification/Tests/MobioRichNotificationTests/MobioRichNotificationTests.swift"
+      ],
+      "tempsPath" : "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotificationTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1661135726, 346402168]
+build_end_time: [1661135727, 263836860]
+inputs:
+  "/Users/sun/Desktop/MobioRichNotification/Sources/MobioRichNotification/MobioRichNotification.swift": [1661135637, 904595136]

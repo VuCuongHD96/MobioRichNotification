@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/master.swiftdeps"
+  },
+  "/Users/sun/Desktop/MobioRichNotification/Sources/MobioRichNotification/MobioRichNotification.swift": {
+    "dependencies": "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification.d",
+    "object": "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification.swift.o",
+    "swiftmodule": "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification~partial.swiftmodule",
+    "swift-dependencies": "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification.swiftdeps"
+  }
+}

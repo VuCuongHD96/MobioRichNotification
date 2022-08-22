@@ -1,0 +1,4 @@
+module MobioRichNotification {
+    header "/Users/sun/Desktop/MobioRichNotification/.build/arm64-apple-macosx/debug/MobioRichNotification.build/MobioRichNotification-Swift.h"
+    requires objc
+}
