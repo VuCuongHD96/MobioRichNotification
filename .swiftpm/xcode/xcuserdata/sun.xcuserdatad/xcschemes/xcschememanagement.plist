@@ -10,5 +10,18 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>MobioRichNotification</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>MobioRichNotificationTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
